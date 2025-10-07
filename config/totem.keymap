@@ -86,10 +86,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp TR_Q       &kp TR_W       &kp TR_E        &kp TR_R        &kp TR_T     &kp TR_Y  &kp TR_U        &kp TR_I_DOTLESS  &kp TR_O          &kp TR_P
-              &mt LGUI TR_A  &mt LALT TR_S  &mt LCTRL TR_D  &mt LSHFT TR_F  &kp TR_G     &kp TR_H  &mt RSHFT TR_J  &mt RCTRL TR_K    &mt RALT TR_L     &mt RGUI TR_S_CEDILLA
-&mt ESC HOME  &kp TR_Z       &kp TR_X       &kp TR_C        &kp TR_V        &kp TR_B     &kp TR_N  &kp TR_M        &kp TR_O_UMLAUT   &kp TR_C_CEDILLA  &kp TR_DOT             &kp TR_COMMA
-                                            &kp DEL         &lt 1 TAB       &kp SPACE    &kp RET   &lt 2 ESC       &kp BSPC
+            &kp TR_Q       &kp TR_W       &kp TR_E        &kp TR_R        &kp TR_T     &kp TR_Y  &kp TR_U        &kp TR_I_DOTLESS  &kp TR_O          &kp TR_P
+            &mt LGUI TR_A  &mt LALT TR_S  &mt LCTRL TR_D  &mt LSHFT TR_F  &kp TR_G     &kp TR_H  &mt RSHFT TR_J  &mt RCTRL TR_K    &mt RALT TR_L     &mt RGUI TR_S_CEDILLA
+&lt 2 HOME  &kp TR_Z       &kp TR_X       &kp TR_C        &kp TR_V        &kp TR_B     &kp TR_N  &kp TR_M        &kp TR_O_UMLAUT   &kp TR_C_CEDILLA  &kp TR_DOT             &kp TR_COMMA
+                                          &kp DEL         &lt 1 TAB       &kp SPACE    &kp RET   &lt 2 ESC       &kp BSPC
             >;
         };
 
@@ -138,10 +138,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                      &kp TR_EXCLAMATION  &kp TR_SQT   &kp TR_HASH          &kp TR_DOLLAR     &kp TR_PERCENT         &kp TR_AMPERSAND  &kp TR_SLASH    &kp RA(U)   &kp SQT     &kp DQT
-                      &kp TR_AT           &kp TR_SZ    &kp RA(TR_CARET)     &kp TR_PLUS       &kp TR_PIPE            &kp C_MUTE        &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&kp TR_DOUBLE_QUOTES  &kp TR_AE           &kp RA(F19)  &kp TR_TURKISH_LIRA  &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &kp C_PLAY_PAUSE
-                                                       &trans               &gif              &mo 3                  &trans            &trans          &trans
+                      &kp TR_EXCLAMATION  &kp TR_SQT   &kp TR_HASH          &kp TR_DOLLAR     &kp TR_PERCENT         &kp TR_AMPERSAND  &kp TR_SLASH    &kp RA(U)   &kp TR_E_BREVE  &kp TR_U_UMLAUT
+                      &kp TR_AT           &kp TR_SZ    &kp RA(TR_CARET)     &kp TR_PLUS       &kp TR_PIPE            &kp C_MUTE        &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)      &kp TR_I
+&kp TR_DOUBLE_QUOTES  &kp TR_AE           &kp RA(F19)  &kp TR_TURKISH_LIRA  &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT      &kp BSLH         &kp C_PLAY_PAUSE
+                                                       &trans               &kp LEFT_SHIFT    &mo 3                  &trans            &trans          &trans
             >;
         };
 
