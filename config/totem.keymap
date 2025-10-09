@@ -112,10 +112,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp TR_TILDE  &kp HOME   &kp END         &kp TR_SLASH  &kp TR_LEFT_BRACE          &kp TR_RIGHT_BRACE        &kp TR_N7     &kp TR_N8  &kp TR_N9  &kp TR_PLUS
-              &kp LSHFT     &kp LEFT   &kp UP_ARROW    &kp RIGHT     &kp TR_LEFT_BRACKET        &kp TR_RIGHT_BRACKET      &kp TR_N4     &kp TR_N5  &kp TR_N6  &kp TR_MINUS
-&kp LEFT_GUI  &kp LEFT_ALT  &kp PG_UP  &kp DOWN_ARROW  &kp PG_DN     &kp TR_LEFT_PARENTHESIS    &kp TR_RIGHT_PARENTHESIS  &kp TR_N1     &kp TR_N2  &kp TR_N3  &kp TR_ASTERISK  &kp TR_EQUAL
-                                       &trans          &trans        &trans                     &mo 3                     &kp TR_COMMA  &kp TR_N0
+              &kp TR_TILDE   &kp HOME   &kp END         &kp TR_SLASH  &kp TR_LEFT_BRACE          &kp TR_RIGHT_BRACE        &kp TR_N7     &kp TR_N8  &kp TR_N9  &kp TR_PLUS
+              &kp LSHFT      &kp LEFT   &kp UP_ARROW    &kp RIGHT     &kp TR_LEFT_BRACKET        &kp TR_RIGHT_BRACKET      &kp TR_N4     &kp TR_N5  &kp TR_N6  &kp TR_MINUS
+&kp LEFT_GUI  &kp RIGHT_ALT  &kp PG_UP  &kp DOWN_ARROW  &kp PG_DN     &kp TR_LEFT_PARENTHESIS    &kp TR_RIGHT_PARENTHESIS  &kp TR_N1     &kp TR_N2  &kp TR_N3  &kp TR_ASTERISK  &kp TR_EQUAL
+                                        &trans          &trans        &trans                     &mo 3                     &kp TR_COMMA  &kp TR_N0
             >;
         };
 
@@ -138,10 +138,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp TR_EXCLAMATION  &kp TR_SQT            &kp TR_HASH          &kp TR_DOLLAR     &kp TR_PERCENT         &kp TR_AMPERSAND  &kp TR_SLASH  &kp TR_GRAVE  &kp TR_E_BREVE  &kp TR_U_UMLAUT
-        &kp TR_AT           &kp TR_SZ             &kp RA(TR_CARET)     &kp TR_PLUS       &kp TR_PIPE            &kp C_MUTE        &kp C_PP      &none         &none           &kp TR_I
-&trans  &kp TR_AE           &kp TR_DOUBLE_QUOTES  &kp TR_TURKISH_LIRA  &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_PREV    &kp C_NEXT      &kp BSLH         &none
-                                                  &trans               &kp LEFT_SHIFT    &mo 3                  &trans            &trans        &trans
+                      &kp TR_EXCLAMATION  &kp TR_SQT         &kp TR_HASH   &kp TR_DOLLAR     &kp TR_PERCENT         &kp TR_AMPERSAND  &kp TR_SLASH  &kp TR_QUESTION  &kp TR_UNDERSCORE  &kp TR_TILDE
+                      &none               &kp TR_POUND_SIGN  &kp TR_CARET  &kp TR_PLUS       &kp TR_FRAC_1_2        &kp C_MUTE        &kp C_PP      &kp TR_E_BREVE   &kp TR_U_UMLAUT    &kp TR_I
+&kp TR_DOUBLE_QUOTES  &none               &none              &kp TR_PIPE   &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_PREV       &kp C_NEXT         &kp BSLH      &kp TR_GRAVE
+                                                             &trans        &kp LEFT_SHIFT    &mo 3                  &trans            &trans        &trans
             >;
         };
 
@@ -166,7 +166,7 @@
             bindings = <
         &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
         &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp RIGHT_ALT
+&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp LA(F4)
                                  &trans        &trans  &trans    &trans  &trans  &trans
             >;
         };
