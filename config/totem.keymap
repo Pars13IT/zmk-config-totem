@@ -138,10 +138,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                      &kp TR_EXCLAMATION  &kp TR_SQT         &kp TR_HASH   &kp TR_DOLLAR     &kp TR_PERCENT         &kp TR_AMPERSAND  &kp TR_SLASH  &kp TR_QUESTION  &kp TR_UNDERSCORE  &kp TR_TILDE
-                      &none               &kp TR_POUND_SIGN  &kp TR_CARET  &kp TR_PLUS       &kp TR_FRAC_1_2        &kp C_MUTE        &kp C_PP      &kp TR_E_BREVE   &kp TR_U_UMLAUT    &kp TR_I
-&kp TR_DOUBLE_QUOTES  &none               &none              &kp TR_PIPE   &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_PREV       &kp C_NEXT         &kp BSLH      &kp TR_GRAVE
-                                                             &trans        &kp LEFT_SHIFT    &mo 3                  &trans            &trans        &trans
+       &kp TR_EXCLAMATION    &kp TR_SQT         &kp TR_HASH   &kp TR_DOLLAR     &kp TR_PERCENT         &kp TR_AMPERSAND  &kp TR_SLASH  &kp TR_QUESTION  &kp TR_UNDERSCORE  &kp TR_TILDE
+       &kp TR_DOUBLE_QUOTES  &kp TR_POUND_SIGN  &kp TR_CARET  &kp TR_PLUS       &kp TR_FRAC_1_2        &kp C_MUTE        &kp C_PP      &kp TR_E_BREVE   &kp TR_U_UMLAUT    &kp TR_I
+&none  &none                 &none              &kp TR_PIPE   &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_PREV       &kp C_NEXT         &kp BSLH      &kp TR_GRAVE
+                                                &trans        &kp LEFT_SHIFT    &mo 3                  &trans            &trans        &trans
             >;
         };
 
@@ -164,10 +164,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans  &kp F7  &kp F8  &kp F9  &kp F12
-        &bootloader  &bt BT_NXT  &trans        &trans  &trans    &trans  &kp F4  &kp F5  &kp F6  &kp F11
-&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp LA(F4)
-                                 &trans        &trans  &trans    &trans  &trans  &trans
+        &sys_reset   &bt BT_CLR  &out OUT_TOG  &trans  &trans    &trans            &kp F7  &kp F8  &kp F9  &kp F12
+        &bootloader  &bt BT_NXT  &trans        &trans  &trans    &kp LEFT_CONTROL  &kp F4  &kp F5  &kp F6  &kp F11
+&trans  &trans       &bt BT_PRV  &trans        &trans  &trans    &kp LEFT_ALT      &kp F1  &kp F2  &kp F3  &kp F10  &none
+                                 &trans        &trans  &trans    &trans            &trans  &trans
             >;
         };
 
