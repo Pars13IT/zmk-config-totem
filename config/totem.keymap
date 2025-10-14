@@ -112,10 +112,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-              &kp TR_TILDE   &kp HOME   &kp END         &kp TR_SLASH  &kp TR_LEFT_BRACE          &kp TR_RIGHT_BRACE        &kp TR_N7     &kp TR_N8  &kp TR_N9  &kp TR_PLUS
-              &kp LSHFT      &kp LEFT   &kp UP_ARROW    &kp RIGHT     &kp TR_LEFT_BRACKET        &kp TR_RIGHT_BRACKET      &kp TR_N4     &kp TR_N5  &kp TR_N6  &kp TR_MINUS
-&kp LEFT_GUI  &kp RIGHT_ALT  &kp PG_UP  &kp DOWN_ARROW  &kp PG_DN     &kp TR_LEFT_PARENTHESIS    &kp TR_RIGHT_PARENTHESIS  &kp TR_N1     &kp TR_N2  &kp TR_N3  &kp TR_ASTERISK  &kp TR_EQUAL
-                                        &trans          &trans        &trans                     &mo 3                     &kp TR_COMMA  &kp TR_N0
+              &kp LEFT_CONTROL  &kp HOME   &kp PRINTSCREEN  &kp END    &kp TR_LEFT_BRACE          &kp TR_RIGHT_BRACE        &kp TR_N7     &kp TR_N8  &kp TR_N9  &kp TR_PLUS
+              &kp LSHFT         &kp LEFT   &kp UP_ARROW     &kp RIGHT  &kp TR_LEFT_BRACKET        &kp TR_RIGHT_BRACKET      &kp TR_N4     &kp TR_N5  &kp TR_N6  &kp TR_MINUS
+&kp LEFT_GUI  &kp LEFT_ALT      &kp PG_UP  &kp DOWN_ARROW   &kp PG_DN  &kp TR_LEFT_PARENTHESIS    &kp TR_RIGHT_PARENTHESIS  &kp TR_N1     &kp TR_N2  &kp TR_N3  &kp TR_ASTERISK  &kp TR_EQUAL
+                                           &trans           &trans     &trans                     &mo 3                     &kp TR_COMMA  &kp TR_N0
             >;
         };
 
@@ -140,7 +140,7 @@
             bindings = <
        &kp TR_EXCLAMATION    &kp TR_SQT         &kp TR_HASH   &kp TR_DOLLAR     &kp TR_PERCENT         &kp TR_AMPERSAND  &kp TR_SLASH  &kp TR_QUESTION  &kp TR_UNDERSCORE  &kp TR_TILDE
        &kp TR_DOUBLE_QUOTES  &kp TR_POUND_SIGN  &kp TR_CARET  &kp TR_PLUS       &kp TR_FRAC_1_2        &kp C_MUTE        &kp C_PP      &kp TR_E_BREVE   &kp TR_U_UMLAUT    &kp TR_I
-&none  &none                 &none              &kp TR_PIPE   &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_PREV       &kp C_NEXT         &kp BSLH      &kp TR_GRAVE
+&none  &kp TR_UMLAUT         &kp TR_E_ACUTE     &kp TR_PIPE   &kp TR_LESS_THAN  &kp TR_GREATER_THAN    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_PREV       &kp C_NEXT         &kp BSLH      &kp TR_GRAVE
                                                 &trans        &kp LEFT_SHIFT    &mo 3                  &trans            &trans        &trans
             >;
         };
