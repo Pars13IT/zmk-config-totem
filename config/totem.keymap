@@ -176,9 +176,9 @@
 
         Gaming {
             bindings = <
-                &kp TR_Q   &kp TR_N1  &kp TR_N2     &kp TR_N3  &kp TR_N4    &kp F5  &trans  &trans  &trans  &kp F9
+                &kp TR_Q   &kp TR_N1  &kp TR_N2     &kp TR_N3  &kp TR_N4    &kp F5  &kp F6  &kp F7  &kp F8  &kp F9
                 &kp TR_Z   &kp TR_A   &kp TR_W      &kp TR_D   &kp TR_F     &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LCTRL  &kp TR_X   &kp TR_S      &kp TR_C   &kp TR_V     &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LCTRL  &kp TR_X   &kp TR_S      &kp TR_C   &kp TR_V     &trans  &trans  &trans  &trans  &trans  &kp F10
                                       &kp LEFT_ALT  &kp TR_R   &kp SPACE    &trans  &trans  &trans
             >;
         };
