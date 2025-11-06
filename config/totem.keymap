@@ -45,6 +45,21 @@
             key-positions = <16 17 18>;
             bindings = <&tog 4>;
         };
+
+        tr_e_breve {
+            bindings = <&kp TR_E_BREVE>;
+            key-positions = <5 6>;
+        };
+
+        tr_u_umlaut {
+            bindings = <&kp TR_U_UMLAUT>;
+            key-positions = <6 7>;
+        };
+
+        tr_i_dot {
+            bindings = <&kp TR_I>;
+            key-positions = <7 8>;
+        };
     };
 
     macros {
