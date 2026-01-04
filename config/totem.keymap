@@ -60,6 +60,16 @@
             bindings = <&kp TR_I>;
             key-positions = <7 8>;
         };
+
+        move_line_up {
+            bindings = <&kp LS(LA(UP))>;
+            key-positions = <2 3>;
+        };
+
+        move_line_down {
+            bindings = <&kp LS(LA(DOWN))>;
+            key-positions = <23 24>;
+        };
     };
 
     macros {
